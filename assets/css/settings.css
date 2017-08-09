@@ -1,0 +1,54 @@
+.wrap table th {
+	font:12px sans-serif;
+	width:20%;
+}
+
+.wrap table th,
+.wrap table td {
+	padding:15px 7px;
+}
+
+.wrap table th label {
+	padding-top:7px;
+}
+
+.wrap table th input {
+	margin:-2px 2px 0 8px;
+}
+
+.simian-tab-description {
+	margin:20px 0;
+}
+
+/* Scheduler per-post-type options slide-in styles */
+
+.simian_additional_args {
+	display:none;
+	overflow:hidden;
+	width:100%;
+}
+
+.simian_additional_args table {
+	padding:0;
+	margin:0;
+}
+
+.wrap .simian_additional_args td {
+	padding:0;
+}
+
+.simian_additional_args td {
+	border:0;
+	margin:0;
+	padding:0 0 5px;
+}
+
+.simian_additional_args select,
+.simian_additional_args input[type="text"] {
+	width:125px;
+}
+
+.contextual-help-tabs-wrap th {
+	text-align:left;
+	padding-right:10px;
+}

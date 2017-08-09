@@ -1,0 +1,716 @@
+/* Default overrides */
+#wpbody-content .metabox-holder { padding-top:0; }
+.js .postbox h3 { cursor:auto; }
+.postbox .inside { margin:0; padding:0; }
+
+
+/* =Structure
+------------------------------------------ */
+
+.simian-admin-form {
+	margin-right:300px;
+}
+
+.simian-single-content {
+	width:100%;
+	float:left;
+}
+
+.simian-title-box {
+	margin:9px 0;
+}
+
+.simian-single-sidebar {
+	float:right;
+	width:280px;
+	margin-right:-300px;
+	margin-top:9px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+	.simian-admin-form {
+		margin:0;
+	}
+
+	.simian-single-sidebar {
+		width:100%;
+		margin-right:0;
+	}
+
+}
+
+@media only screen and (max-width: 782px) {
+
+	.simian-single-content {
+		min-width: 0;
+	}
+
+}
+
+.simian-tab-box {
+	display:none;
+}
+
+
+/* =Form Table
+------------------------------------------ */
+
+.form-table {
+	border-collapse:separate;
+	border-spacing:0;
+	margin-top:0;
+}
+
+.simian .form-table th, .simian .form-table td {
+	padding:15px;
+	border-bottom:1px solid #f0f0f0;
+}
+
+.simian .form-table th {
+	width:26%;
+	background:#f9f9f9;
+	border-right:1px solid #e1e1e1;
+}
+
+.simian .form-table tr:last-child th,
+.simian .form-table tr:last-child td {
+	border-bottom:0;
+}
+
+.simian-single-sidebar .simian-form-list {
+	padding:0 18px;
+}
+
+.simian-single-sidebar .simian-form-item {
+	margin:0 0 15px;
+}
+
+@media only screen and (max-width: 782px) {
+
+	.simian .form-table th {
+		width:auto;
+		border-right:0;
+	}
+
+	.simian .form-table td {
+		margin-bottom:0;
+	}
+
+}
+
+
+/* =Form Fields
+------------------------------------------ */
+
+.simian-single-sidebar .simian-form-item label {
+	font-weight:bold;
+	display:block;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+th label {
+	font-weight:bold;
+	color:#444;
+}
+
+.simian-single-sidebar .simian-form-item input[type="text"],
+.simian-single-sidebar .simian-form-item textarea {
+	width:100%;
+}
+
+textarea {
+	padding:5px 10px;
+}
+
+.simian-manual-checklist label {
+	display:block;
+	margin-bottom:5px;
+}
+
+.simian-form-table .simian-checkbox,
+.simian-manual-checklist input {
+	margin-right:3px;
+}
+
+.simian-section:first-child {
+	padding-top:9px;
+}
+
+.simian-url-input,
+.simian-section textarea,
+.simian-section .simian-code-text {
+	font:13px Consolas,Monaco,monospace;
+}
+
+.single-page-slug, .archive-page-slug {
+	margin-bottom:15px;
+}
+
+.simian-reveal, .simian-narrow-further {
+	display:none;
+}
+
+.simian-narrow-further a {
+	text-decoration:none;
+}
+
+.simian .select2 {
+	min-width:100px;
+	width:auto;
+}
+
+.simian .select2-search-field input {
+	width:auto !important;
+}
+
+.simian-indented-box {
+	margin:15px 23px 15px 23px;
+}
+
+.simian-indented-box select,
+.simian-indented-box label {
+	margin:5px 0;
+}
+
+
+/* =Headers
+------------------------------------------ */
+
+#name, #label, #singular_label, #plural_label {
+	padding:3px 8px;
+	font-size:1.7em;
+	line-height:100%;
+	width:100%;
+	height:1.7em;
+	outline: 0;
+	display:inline-block;
+	margin: 1px 0;
+}
+
+#singular_label, #plural_label {
+	width:49%;
+}
+
+#singular_label {
+	float:left;
+}
+
+#plural_label {
+	float:right;
+}
+
+
+/* =Submit Box
+------------------------------------------ */
+
+.simian-section #description {
+	font:12px sans-serif;
+}
+
+.simian-single-sidebar .simian-admin-submit {
+	float:none;
+	text-align:right;
+	padding:20px;
+	margin-top:25px;
+	border-top:1px solid #dedede;
+	background:#f9f9f9;
+	position:relative;
+}
+
+.wrap .simian-admin-submit input,
+.wrap .simian-admin-submit input:active {
+	padding:5px 20px;
+	font-size:18px;
+	height:auto;
+	font-weight:200;
+}
+
+.wrap .simian-admin-submit input:hover {
+	cursor:pointer;
+}
+
+.simian-delete-item {
+	color:red;
+	border-bottom:1px solid red;
+	margin-right:25px;
+	margin-top:12px;
+	padding:1px 2px;
+	text-decoration:none;
+	float:left;
+}
+
+.simian-admin-submit .spinner {
+	position:absolute;
+	top:27px;
+	left:100px;
+}
+
+.simian-delete-item:hover {
+	color:white;
+	background-color:red;
+}
+
+
+/* =Repeater
+------------------------------------------ */
+
+.simian-repeater {
+	margin-bottom:10px;
+	background:#fff;
+	border:1px solid #dfdfdf;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+.simian-repeater-list {
+	margin:0;
+}
+
+.simian-repeater .simian-repeater-row {
+	clear:both;
+	display:block;
+	padding:6px 0;
+	background:#fff;
+	margin-bottom:0;
+}
+
+.simian-repeater .simian-repeater-row:first-child {
+	border-top:0;
+}
+
+.simian-repeater .simian-repeater-row:nth-child(odd) {
+	background:#f4f4f4;
+}
+
+.simian-repeater-toplevel {
+	float:left;
+	display:block;
+	padding:0;
+}
+
+.simian-repeater .text {
+	margin:8px 0 0;
+	padding:0 10px;
+	display:block;
+	float:left;
+}
+
+/* Delete/Sort/Add */
+
+.simian-repeater-drag {
+	background:url('../images/sort.png') 10px 10px no-repeat;
+}
+
+.simian-section .simian-repeater .simian-repeater-highlight {
+	background-color:#efe;
+	height:40px;
+	box-shadow:inset 1px 1px 6px #999;
+}
+
+.simian-section .ui-sortable-helper {
+	box-shadow:2px 2px 8px #222;
+}
+
+.simian-repeater-delete {
+	background:url('../images/delete.png') 10px 10px no-repeat;
+}
+
+.simian-repeater-add {
+	display:block;
+	clear:both;
+	padding:3px;
+	border-top:1px solid #ccc;
+	background:#dfdfdf;
+}
+
+.simian-repeater-drag, .simian-repeater-delete {
+	width:6%;
+	height:20px;
+	padding:1%;
+	cursor:pointer;
+}
+
+.simian-repeater .simian-repeater-delete {
+	float:right;
+}
+
+
+/* =Query UI
+------------------------------------------ */
+
+.query-ui-object-dropdown {
+	margin-right:5px;
+	margin-bottom:12px;
+}
+
+.simian_query_ui {
+	margin-top:10px;
+}
+
+.simian_query_ui .simian-repeater-toplevel {
+	width:90%;
+}
+
+.simian_query_ui .simian-repeater-delete {
+	width:6%;
+}
+
+.simian .repeater-heading {
+	padding:10px;
+	min-height:34px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ccc;
+	background:#ddd;
+}
+
+.simian .repeater-heading label {
+	float:left;
+	margin-right:10px;
+	margin-top:5px;
+	font-weight:bold;
+}
+
+.simian .repeater-heading select,
+.simian .repeater-heading input {
+	border:1px solid #444;
+}
+
+.simian_query_ui .simian-narrow-by {
+	width:35%;
+	margin:1% 2%;
+	float:left;
+}
+
+.simian_query_ui .simian-rule {
+	display:block;
+	float:left;
+	margin-left:1%;
+	width:60%;
+}
+
+.simian_query_ui .simian-rule input,
+.simian_query_ui .simian-rule select {
+	width:100%;
+	margin:1%;
+}
+
+.simian_query_ui .simian-rule .select2-container {
+	width:100%;
+	margin:1%;
+}
+
+.simian_query_ui .simian-rule .query-ui-radio {
+	display:block;
+}
+
+.simian_query_ui .simian-rule .query-ui-radio input {
+	width:auto;
+}
+
+@media only screen and (max-width: 782px) {
+
+	.simian_query_ui .simian-repeater-toplevel {
+		width:80%;
+	}
+
+	.simian_query_ui .simian-repeater-delete {
+		width:10%;
+	}
+
+	/* collapse narrow-by rule on top of the rest */
+	.simian_query_ui .simian-narrow-by,
+	.simian_query_ui .simian-rule {
+		float:none;
+		width:100%;
+	}
+
+}
+
+
+/* =Field UI
+------------------------------------------ */
+
+/* Container & Headings */
+
+.simian-field-repeater .simian-repeater {
+	border:0;
+	margin-bottom:0;
+	clear:both;
+}
+
+.field-repeater-headings {
+	width:100%;
+	border-bottom:1px solid #dfdfdf;
+	/* box-shadow:0 2px 2px #ddd; */
+	height:28px;
+	margin-bottom:0;
+	z-index:1;
+	position:relative;
+}
+
+.field-repeater-headings li {
+	float:left;
+	font-weight:normal;
+	font-family:Georgia, serif;
+	font-size:14px;
+}
+
+.field-repeater-headings li span {
+	padding:0 10px;
+}
+
+/* Widths */
+
+.field-repeater-headings .sort   { width:5%; }
+.field-repeater-headings .label  { width:24%; }
+.field-repeater-headings .type   { width:24%; }
+.field-repeater-headings .options  { width:38%; }
+.field-repeater-headings .delete { width:9%; }
+
+.simian-field-repeater .simian-repeater-row { width:100%; }
+
+.simian-field-repeater .simian-repeater-toplevel.simian-repeater-drag { width:4%; }
+.simian-field-repeater .simian-repeater-toplevel { width:86%; }
+.simian-field-repeater .simian-repeater-toplevel.simian-repeater-delete { width:3%; }
+
+.simian-field-repeater-label { width:28%; }
+.simian-field-repeater-type { width:28%; }
+.simian-field-repeater-options { width:44%; }
+
+/* Default Columns */
+
+.simian-field-repeater-col {
+	float:left;
+}
+
+.simian-field-repeater-label input {
+	width:92%;
+	margin-top:6px;
+}
+
+.simian-field-repeater-type select {
+	margin-top:6px;
+	width:92%;
+}
+
+/* Expanding Options Column */
+
+.simian-field-repeater-options {
+	margin-top:5px;
+}
+
+.simian-field-repeater-options .simian-faded {
+	width:94%;
+	margin-top:5px;
+	overflow:hidden;
+	max-width:94%;
+}
+
+.simian-field-repeater-options textarea {
+	width:94%;
+	max-width:94%;
+	padding:4px 7px;
+	height:50px;
+	overflow:hidden;
+	margin-left:0
+}
+
+.simian-field-repeater-options .option-container textarea {
+	width:69%;
+	max-width:none;
+	height:auto;
+	float:right;
+	min-height:55px;
+}
+
+.simian .simian-field-repeater-options .option-container .select2 {
+	min-width:0;
+	width:69%;
+	float:right;
+}
+
+.simian-field-repeater-options .option-container {
+	width:94%;
+	margin:0 0 8px;
+}
+
+.simian-field-repeater-options .option-label {
+	display:block;
+	float:left;
+	width:30%;
+	margin-top:4px;
+}
+
+.simian-repeater .simian-field-repeater-options input,
+.simian-repeater .simian-field-repeater-options select {
+	display:block;
+	float:right;
+	width:69%;
+	margin:0;
+}
+
+.simian-field-repeater-options input[disabled="disabled"] {
+	border-color:#f5f5f5;
+	color:#bbb;
+}
+
+.simian-field-repeater-options .option-note {
+	color:#888;
+	margin-left:31%;
+}
+
+.simian-options-toggle {
+	margin:6px 0 10px;
+	background:url('../images/arrow-down.png') 0 3px no-repeat;
+}
+
+.simian-options-toggle.right {
+	background:url('../images/arrow-right.png') 0 3px no-repeat;
+}
+
+.simian-options-toggle a {
+	text-decoration:none;
+	padding-left:14px;
+}
+
+.simian-toggle-all-options {
+	font-size:11px;
+	margin:-17px 0 0 75px;
+	color:#888;
+}
+
+.simian-toggle-all-options.item-exists {
+	color:#334;
+}
+
+.simian-toggle-all-options a {
+	text-decoration:none;
+}
+
+.file-type-select2 {
+	width:69%;
+	margin-left:0;
+	float:right;
+}
+
+.simian-field-repeater-options .dashicons {
+	width:20px;
+	height:20px;
+}
+
+@media only screen and (max-width: 782px) {
+
+	.simian-field-repeater .simian-repeater-toplevel { width:79%; margin:0 0 0 2%; }
+	.simian-field-repeater .simian-repeater-toplevel.simian-repeater-drag { width:6%; margin:0; }
+	.simian-field-repeater .simian-repeater-toplevel.simian-repeater-delete { width:9%; margin:0; }
+
+	.simian-field-repeater-col {
+		width:100%;
+		float:none;
+	}
+
+	.field-repeater-headings li {
+		display:none;
+	}
+
+	.field-repeater-headings li.options {
+		display:block;
+		width:100%;
+	}
+
+	.field-repeater-headings li.options span {
+		display:none;
+	}
+
+	.field-repeater-headings li.options .simian-toggle-all-options {
+		margin:0 0 0 4%;
+		font-size:100%;
+	}
+
+}
+
+
+/* =Content Type Icon Selection
+------------------------------------------ */
+
+label[for="show_ui"] + .simian-hidden-box {
+	margin:20px 23px 0 23px;
+}
+
+label[for="show_ui"] + .simian-hidden-box > a {
+	margin-top:-5px;
+}
+
+label[for="show_ui"] + .simian-hidden-box > .button {
+	margin-top:-4px;
+	margin-bottom:20px;
+}
+
+.dashicons {
+	font-size:30px;
+}
+
+.menu-icon-inline-dialog .dashicons {
+	font-size:20px;
+}
+
+/* Old Icons */
+
+.icon-radio-boxes {
+	max-width:675px;
+	margin-left:20px;
+}
+
+.icon-radio-boxes-label {
+	margin:20px 0 10px;
+}
+
+.icon-radio-boxes label {
+	float:left;
+	display:block;
+	width:50px;
+	height:25px;
+	margin-right:12px;
+	margin-bottom:10px;
+	background-color:#f0f0f0;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	padding:10px;
+	border:1px solid #f0f0f0;
+}
+
+.icon-radio-boxes label:hover {
+	border:1px solid #d0d0d0;
+	background:#e9e9e9;
+}
+
+.icon-highlighted {
+	border:1px solid #c0c0c0 !important;
+	background:#e0e0e0 !important;
+}
+
+.form-table .icon-radio-boxes input[type="radio"] {
+	float:left;
+	margin-top:7px;
+}
+
+
+/* =Tooltips
+------------------------------------------ */
+
+.simian-tooltip {
+	height:auto;
+	font-size:20px;
+	cursor:pointer;
+}
+
+.ui-tooltip {
+	width:15em;
+	padding:10px 20px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 5px #888;
+}

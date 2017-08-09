@@ -1,0 +1,117 @@
+.wrap div.simian-home-activated {
+	background-color:#efe;
+	border-color:#5c5;
+	font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+	font-size:20px;
+	color:#050;
+	margin:5px 0 7px;
+}
+
+#wpbody-content .metabox-holder {
+	padding-top:20px;
+}
+
+.js .simian-home-widgets .postbox .hndle {
+	cursor:auto;
+}
+
+.simian-home-widgets #postbox-container-1 {
+	width:100%;
+}
+
+.simian-home-widgets #postbox-container-1 {
+	width:70%;
+}
+
+.simian-home-widgets #postbox-container-2 {
+	width:30%;
+}
+
+.simian-home-widgets #postbox-container-2 .postbox {
+	min-width:0;
+}
+
+.simian-home-widgets #postbox-container-1 .meta-box-sortables {
+	padding-right:20px;
+}
+
+.simian-home-widgets #normal-sortables .submit {
+	float:none;
+	margin:10px 5px 15px;
+	padding:0;
+}
+
+#simian-home-components_box table {
+	width:100%;
+}
+
+#simian-home-components_box thead td:first-child {
+	text-align:right;
+	padding-right:25px;
+	width:57px;
+}
+
+#simian-home-components_box thead td {
+	padding-right:7px;
+	text-align:left;
+	color: #8f8f8f;
+	font-size: 14px;
+	border-bottom:1px solid #ececec;
+}
+
+#simian-home-resources_box p {
+	line-height:22px;
+}
+
+#simian-home-resources_box .num,
+#simian-home-components_box .num,
+#simian-home-resources_box p span {
+	font-size:20px;
+	font-family:Georgia, serif;
+}
+
+#simian-home-resources_box td + td {
+	padding-left:15px;
+}
+
+#simian-home-components_box .num {
+	text-align:right;
+	padding-right:25px;
+}
+
+#simian-home-components_box td {
+	padding:7px;
+}
+
+#simian-home-components_box a {
+	text-decoration:none;
+}
+
+.simian-licenses-intro {
+	max-width:600px;
+}
+
+.simian-license-field {
+	width:293px;
+	float:left;
+}
+
+.simian-license-status {
+	display:block;
+	padding:5px 0 0 8px;
+}
+
+@media only screen and (max-width: 782px) {
+
+	.simian-home-widgets #postbox-container-1,
+	.simian-home-widgets #postbox-container-2 {
+		width:100%;
+		float:none;
+		clear:both;
+	}
+
+	.simian-home-widgets #postbox-container-1 .meta-box-sortables {
+		padding:0;
+	}
+
+}

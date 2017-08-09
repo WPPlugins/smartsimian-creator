@@ -1,0 +1,48 @@
+.filelist .file {
+    padding: 5px;
+    background: #ececec;
+    border: solid 1px #ccc;
+    margin-bottom: 4px;
+}
+
+.filelist .fileprogress {
+    width:0;
+    background: #B7C53D;
+    height: 5px;
+}
+
+.thumb > a {
+	text-decoration:none;
+}
+
+.plupload-error {
+	border:1px solid #e6db55;
+	background:#fffbbc;
+	padding:6px 9px;
+	margin:3px 0;
+}
+
+.thumb-actions a, .plupload-error a {
+	font-weight:bold;
+	padding:0 0 0 11px;
+	font-size:11px;
+	text-decoration:underline;
+}
+
+.plupload-thumbs {
+	margin-top:3px;
+}
+
+.plupload-thumbs .thumb {
+	padding:3px 0;
+}
+
+.simian-plupload-handle {
+	float:left;
+	cursor:move;
+	width:13px;
+	height:16px;
+	background:url('../images/sort.png') no-repeat;
+	padding:0 10px 0 0;
+	margin:2px 0;
+}
